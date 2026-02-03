@@ -1,59 +1,81 @@
-# 🩸 Wareed - تطبيق وَرِيد
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+# <p align="center">🩸 Wareed - وَرِيد 🩸</p>
+<p align="center">
+  <b>"من أحياها فكأنما أحيا الناس جميعاً"</b><br>
+  <i>المنصة الذكية الأولى لإنقاذ الأرواح في صعيد مصر (سوهاج - المراغة)</i>
+</p>
 
-**"قطرة دم منك.. تساوي حياة لهم"**
-تطبيق **وريد** هو منصة إنسانية متكاملة لربط المتبرعين بحالات الاستغاثة العاجلة والمستشفيات في محافظة سوهاج، مع توفير واجهة سهلة الاستخدام ونظام تتبع دقيق.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Live_Project-success?style=for-the-badge" />
+</p>
 
 ---
 
-## 📱 Screenshots | لقطات من التطبيق
+## 📖 نظرة عامة (Overview)
+**وريد** ليس مجرد تطبيق، بل هو وسيط رقمي يربط بين المتبرع والمريض والمستشفى في أسرع وقت ممكن. تم تطويره ليكون الحل الأمثل لمواجهة نقص فصائل الدم المفاجئ، من خلال توظيف تكنولوجيا تحديد المواقع ونظام الاستغاثة الفوري (SOS).
+
+---
+
+## 📱 معرض الصور (App Showcase)
 
 <table align="center">
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/88b1997a-e5f7-4ec0-95dd-d534b4fa0a1e" width="220"></td>
-    <td><img src="https://github.com/user-attachments/assets/a751c058-c470-4978-b7fd-0d7619b54dba" width="220"></td>
-    <td><img src="https://github.com/user-attachments/assets/0a2a5653-eae5-4e10-b315-6ed8752821f6" width="220"></td>
+    <td align="center"><b>شاشة الانطلاق</b></td>
+    <td align="center"><b>واجهة المستخدم</b></td>
+    <td align="center"><b>طلب استغاثة SOS</b></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/afa81611-b15c-4b36-bdda-b4667f3d6cc2" width="220"></td>
-    <td><img src="https://github.com/user-attachments/assets/4b08af16-0aae-4cad-92ed-bcad6829bbc3" width="220"></td>
-    <td><img src="https://github.com/user-attachments/assets/9aa3e771-1858-4ea9-8570-20769fed53d6" width="220"></td>
+    <td><img src="https://github.com/user-attachments/assets/88b1997a-e5f7-4ec0-95dd-d534b4fa0a1e" width="200"></td>
+    <td><img src="https://github.com/user-attachments/assets/0a2a5653-eae5-4e10-b315-6ed8752821f6" width="200"></td>
+    <td><img src="https://github.com/user-attachments/assets/98af42f8-3c04-4744-a42c-0d3662d824e3" width="200"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/98af42f8-3c04-4744-a42c-0d3662d824e3" width="220"></td>
-    <td><img src="https://github.com/user-attachments/assets/d9fca603-52b6-423d-b193-cb87a1517bbb" width="220"></td>
-    <td><img src="https://github.com/user-attachments/assets/05507c77-d6f2-469b-9b9d-864f52421794" width="220"></td>
+    <td align="center"><b>تفاصيل المستشفى</b></td>
+    <td align="center"><b>الملاحة والخرائط</b></td>
+    <td align="center"><b>تسجيل الدخول</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/99b17183-62b9-46fb-9ff3-717e5a2c96e1" width="220"></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/c30a4de0-6bf5-4159-9cfb-35b8b914ccd4" width="220"></td>
-    <td align="center">---</td>
+    <td><img src="https://github.com/user-attachments/assets/afa81611-b15c-4b36-bdda-b4667f3d6cc2" width="200"></td>
+    <td><img src="https://github.com/user-attachments/assets/99b17183-62b9-46fb-9ff3-717e5a2c96e1" width="200"></td>
+    <td><img src="https://github.com/user-attachments/assets/a751c058-c470-4978-b7fd-0d7619b54dba" width="200"></td>
   </tr>
 </table>
 
 ---
 
-## ✨ المميزات الرئيسية | Key Features
+## 🔥 لماذا "وريد"؟ (Core Features)
 
-* **🚨 نظام SOS الفوري:** إمكانية نشر طلب استغاثة لمريض وتحديد الفصيلة المطلوبة فوراً.
-* **📍 تتبع الموقع والملاحة:** ربط مباشر مع خرائط جوجل لتوجيه المتبرع لأسرع مسار للمستشفى.
-* **🏥 تغطية شاملة للمستشفيات:** عرض حالات الاستغاثة النشطة في مستشفيات سوهاج والمراغة.
-* **💉 التبرع السريع:** واجهة مخصصة لاختيار فصيلتك وتفعيل وضع الاستعداد للتبرع بضغطة واحدة.
-* **🩺 نصائح طبية:** تنبيهات توعوية للمتبرعين لضمان سلامتهم.
-
----
-
-## 🛠 التقنيات المستخدمة | Tech Stack
-
-* **Flutter & Dart:** لبناء واجهات عصرية وسريعة.
-* **Google Maps API:** لتوفير أنظمة الملاحة وتحديد المواقع.
-* **Geolocator:** لجلب إحداثيات الموقع الحالي بدقة.
+* **🚨 زر الاستغاثة العاجل:** ميزة مبتكرة تمكن المريض من نشر استغاثة فورية تصل لكل مستخدمي التطبيق في محيطه الجغرافي.
+* **📍 تتبع حي للمواقع:** بضغطة واحدة، يتم توجيه المتبرع لأقرب مستشفى محتاج لفصيلته عبر **Google Maps**.
+* **⚡️ تواصل واتساب ذكي:** إرسال رسائل آلية تحتوي على بيانات المتبرع وإحداثيات موقعه لتقليل وقت التنسيق.
+* **🏦 إدارة بنوك الدم:** عرض محدث لحالات المستشفيات (المراغة المركزي، سوهاج العام، الهلال).
+* **🧠 ذكاء الواجهة:** تصميم يركز على السرعة والبساطة لأن كل ثانية تفرق في حياة المريض.
 
 ---
 
-## ⚙️ كيفية التثبيت | Installation
+## 🛠 البناء التقني (Architecture)
 
-1. قم بعمل Clone للمستودع:
-   ```bash
-   git clone [https://github.com/saeedemad929-hash/Wareed-App.git](https://github.com/saeedemad929-hash/Wareed-App.git)
+- **UI Framework:** Flutter (Null Safety)
+- **State Management:** Provider / GetX (تعدل حسب ما استخدمت)
+- **Location Engine:** Google Geolocator API
+- **Maps:** Google Maps Flutter Plugin
+
+---
+
+## 🚀 رحلة الاستخدام (Workflow)
+1. **المتبرع:** يختار فصيلته ويفعل وضع "جاهز للتبرع".
+2. **المريض:** يضغط على زر الاستغاثة ويحدد مكانه والفصيلة المطلوبة.
+3. **النظام:** يربط بين المتبرعين الأقرب جغرافياً ويفتح خط تواصل مباشر عبر واتساب أو الاتصال.
+
+---
+
+## 👨‍💻 المطور (Developer)
+**Saeed Emad** متخصص في تطوير تطبيقات الموبايل باستخدام Flutter، مهتم بدمج التكنولوجيا في حل المشكلات الصحية والمجتمعية.
+
+> اطلعت على مشروعي الآخر؟ [Smart Chair Portfolio](https://github.com/saeedemad929-hash/Smart-Chair-Portfolio)
+
+---
+<p align="center">
+  <b>شكراً لمتابعتك.. ساهم معنا بنشر التطبيق لإنقاذ الأرواح 🩸</b>
+</p>
